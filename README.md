@@ -11,7 +11,7 @@
 yarn install
 ```
 
-1. Install Nest CLI in your OS
+3. Install Nest CLI in your OS
 
 ```
 npm i -g @nestjs/cli
@@ -23,7 +23,15 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-4. Build DB with Seed
+5. Clone file **.env.template** and rename copy **.env**
+6. Set env variables in `.env`
+7. Run app in dev
+
+```
+yarn start:dev
+```
+
+6. Build DB with Seed
 
 ```
 http://localhost:3000/api/v2/seed
